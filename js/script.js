@@ -67,7 +67,7 @@ function even(n) {
   display.innerHTML = "";
 
   var result = "even(" + n + ")" + newline;
-  result += "***Output***";
+  result += "***Output***" + newline;
 
   for ( var i = 2; i < n; i += 2) {
     result += i + newline;
@@ -81,7 +81,7 @@ function powers(n) {
   display.innerHTML = "";
 
   var result = "powers(" + n + ")" + newline;
-  result += "***Output***";
+  result += "***Output***" + newline;
 
   for ( var i = 1; i <= n; i++ ) {
     result += Math.pow(2, i) + newline;
@@ -187,4 +187,8 @@ function tableSquares(n) {
   }
 
   display.innerHTML = result;
+}
+
+function determineNumberOfDigitsInLargestIntInTable(n) {
+
 }
